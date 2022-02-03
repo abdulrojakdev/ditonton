@@ -13,7 +13,7 @@ class HomeMoviePage extends StatelessWidget {
     return Scaffold(
       drawer: CustomDrawer(),
       appBar: AppBar(
-        title: Text('Ditonton'),
+        title: Text('Ditonton new'),
         actions: [
           IconButton(
             onPressed: () {
