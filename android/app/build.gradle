@@ -38,6 +38,7 @@ android {
         applicationId "com.dicoding.ditonton"
         minSdkVersion 19
         targetSdkVersion 31
+        multiDexEnabled true
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
     }
