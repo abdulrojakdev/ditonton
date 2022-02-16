@@ -38,6 +38,7 @@ class MovieListBloc extends Bloc<MovieListEvent, MovieListState> {
       ),
     );
     final result = await getNowPlayingMovies.execute();
+    print(result);
 
     result.fold(
       (failure) {

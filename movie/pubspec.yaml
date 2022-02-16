@@ -34,12 +34,12 @@ dependencies:
   firebase_crashlytics:
 
 dev_dependencies:
-  mockito: ^5.0.8
-  build_runner: ^2.0.4
-  bloc_test: ^9.0.0
-  freezed:
   flutter_test:
     sdk: flutter
+  mockito: ^5.0.8
+  build_runner: ^2.0.4
+  bloc_test:
+  freezed:
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
