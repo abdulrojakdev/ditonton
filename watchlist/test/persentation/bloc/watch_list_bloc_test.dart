@@ -10,7 +10,10 @@ import 'package:watchlist/watchlist.dart';
 import '../../dummy_objects.dart';
 import 'watch_list_bloc_test.mocks.dart';
 
-@GenerateMocks([GetWatchlistMovies, GetWatchlistTvSeries])
+@GenerateMocks([
+  GetWatchlistMovies,
+  GetWatchlistTvSeries,
+])
 void main() {
   late WatchListBloc watchListBloc;
   late MockGetWatchlistMovies mockGetWatchlistMovies;
